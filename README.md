@@ -6,7 +6,6 @@ Installation:
 [commit-and-tag](https://www.npmjs.com/package/commit-and-tag-version)
 ```
 npm install husky commitizen commit-and-tag-version --save-dev
-npx commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
 
 Commitizen and husky initialisation:
