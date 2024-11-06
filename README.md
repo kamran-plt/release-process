@@ -6,7 +6,6 @@ Installation:
 [commit-and-tag](https://www.npmjs.com/package/commit-and-tag-version)
 ```
 npm install husky commitizen commit-and-tag-version --save-dev
-npx commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
 
 Commitizen and husky initialisation:
@@ -69,7 +68,8 @@ Add the script in package.json so we can run commit from command like
 "cm": "cz"
 ```
 
-At this point if we commit like `npm run cm` we should see
+At this point if we commit like `git commit` we should see
+If you see editor after commit you can disable it `git config --global core.editor true`
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://raw.githubusercontent.com/commitizen/cz-cli/master/meta/screenshots/add-commit.png)
 
