@@ -16,7 +16,7 @@ npx commitizen init cz-conventional-changelog --save-dev --save-exact
 npx husky init
 ```
 
-Update `.husky/pre-commit` with `exec < /dev/tty && npx git-cz --hook || true` to configure commitizen with husky
+Add/Update `.husky/prepare-commit-msg` with `exec < /dev/tty && npx git-cz --hook || true` to configure commitizen with husky
 
 Add config for commitizen the way it would add changelog 
 ```
@@ -64,7 +64,14 @@ Add the script in package.json so we can run it from command line
 "release": "HUSKY=0 commit-and-tag-version -a"
 ```
 
-At this point if we commit like `git commit` we should see
+Add the script in package.json so we can run commit from command like
+```
+"cm": "cz"
+```
+
+At this point if we commit like `npm run cm` we should see
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://raw.githubusercontent.com/commitizen/cz-cli/master/meta/screenshots/add-commit.png)
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
