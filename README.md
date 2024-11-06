@@ -75,3 +75,12 @@ At this point if we commit like `npm run cm` we should see
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+
+## Release creation
+
+1 - Create a release branch from develop eg RELEASE/1.1.0
+
+2 - Run script `npm run release` which will create/append changelog and increase minor release number from package.json
+
+3 - Push release branch and create PR to main/master
+
