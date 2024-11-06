@@ -1,0 +1,60 @@
+{
+  "name": "release-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "HUSKY=0 commit-and-tag-version -a",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commit-and-tag-version": "^12.5.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "standard-version": {
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "chore",
+        "hidden": false
+      },
+      {
+        "type": "docs",
+        "hidden": false
+      },
+      {
+        "type": "style",
+        "hidden": false
+      },
+      {
+        "type": "refactor",
+        "hidden": false
+      },
+      {
+        "type": "perf",
+        "hidden": false
+      },
+      {
+        "type": "test",
+        "hidden": false
+      }
+    ]
+  }
+}
