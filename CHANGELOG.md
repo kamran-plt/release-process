@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.1](https://github.com/kamran-plt/release-process/compare/v1.2.0...v1.2.1) (2024-11-07)
+
+
+* **docs update:** cT-1234:removed unnecessary doc update ([1efba42](https://github.com/kamran-plt/release-process/commit/1efba4237f543a2dcc7282ef9957c219ff969b61))
+
+## [1.1.0](https://github.com/kamran-plt/release-process/compare/f05f53e537a1d9146b5e72a259b1b147202cf8c8...v1.1.0) (2024-11-06)
+
+
+* **release:** 1.1.0 ([f05f53e](https://github.com/kamran-plt/release-process/commit/f05f53e537a1d9146b5e72a259b1b147202cf8c8))
+
 ## 1.2.0 (2024-11-06)
 
 
