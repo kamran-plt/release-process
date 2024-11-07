@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.0](https://github.com/kamran-plt/release-process/compare/v1.2.2...v1.3.0) (2024-11-07)
+
+
+### Features
+
+* **added script:** add script for dry run release ([335579d](https://github.com/kamran-plt/release-process/commit/335579da6ef278f7e612a50fb06f5da87cec2a5d))
+
 ## [1.2.2](https://github.com/kamran-plt/release-process/compare/v1.2.0...v1.2.2) (2024-11-07)
 
 
