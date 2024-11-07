@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "release": "HUSKY=0 commit-and-tag-version -a",
+    "dry:release": "HUSKY=0 commit-and-tag-version -a --dry-run",
     "prepare": "husky"
   },
   "keywords": [],
