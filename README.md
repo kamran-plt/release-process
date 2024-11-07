@@ -63,11 +63,6 @@ Add the script in package.json so we can run it from command line
 "release": "HUSKY=0 commit-and-tag-version -a"
 ```
 
-Add the script in package.json so we can run commit from command like
-```
-"cm": "cz"
-```
-
 At this point if we commit like `git commit` we should see
 If you see editor after commit you can disable it `git config --global core.editor true`
 
