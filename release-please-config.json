@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "node",
+  "pull-request-title-pattern": "release: ${version}",
+  "include-component-in-tag": false,
+  "include-v-in-tag": true,
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "Features",
+      "hidden": false
+    },
+    {
+      "type": "revert",
+      "section": "Reverts",
+      "hidden": false
+    },
+    {
+      "type": "fix",
+      "section": "Bug Fixes",
+      "hidden": false
+    },
+    {
+      "type": "chore",
+      "section": "Additional",
+      "hidden": false
+    },
+    {
+      "type": "docs",
+      "section": "Additional",
+      "hidden": false
+    },
+    {
+      "type": "style",
+      "section": "Additional",
+      "hidden": false
+    },
+    {
+      "type": "refactor",
+      "section": "Additional",
+      "hidden": false
+    },
+    {
+      "type": "perf",
+      "section": "Additional",
+      "hidden": false
+    },
+    {
+      "type": "test",
+      "section": "Additional",
+      "hidden": false
+    },
+    {
+      "type": "ci",
+      "section": "Additional",
+      "hidden": false
+    },
+    {
+      "type": "build",
+      "section": "Additional",
+      "hidden": false
+    },
+    {
+      "type": "merge",
+      "section": "Additional",
+      "hidden": true
+    },
+    {
+      "type": "release",
+      "section": "Additional",
+      "hidden": true
+    }
+  ],
+  "packages": {
+    ".": {}
+  }
+}
