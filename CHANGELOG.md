@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.4.0](https://github.com/kamran-plt/release-process/compare/v1.3.0...v1.4.0) (2024-11-08)
+
+
+### Features
+
+* **github workflow:** add git hub workflow ([1a16fb6](https://github.com/kamran-plt/release-process/commit/1a16fb6b9b56deb10dbb42126be65c9c2b425ed9))
+* **release please:** add manifest file ([5f0155b](https://github.com/kamran-plt/release-process/commit/5f0155b5b7cb3d4c896cb39ead2862c2f97e2a57))
+* **release please:** add release please config ([ff6afbc](https://github.com/kamran-plt/release-process/commit/ff6afbcf19b70ed7c16bdd4c5efe542fb39118c4))
+* **release please:** add release please manifest ([9eccf2e](https://github.com/kamran-plt/release-process/commit/9eccf2eeb33752afb3e00a0b74aac7984ac5410e))
+* **release please:** sort manifest file ([1b8f405](https://github.com/kamran-plt/release-process/commit/1b8f4055da6428ead0e60b86aa077dbfd6100d2f))
+
+
+### Bug Fixes
+
+* **release workflow:** sort release workflow ([35b9a43](https://github.com/kamran-plt/release-process/commit/35b9a43c738d2f9792aa0467cc76c67ce35a8d14))
+
 ## [3.32.0](https://github.com/kamran-plt/release-process/compare/v3.31.0...v3.32.0) (2024-11-08)
 
 
