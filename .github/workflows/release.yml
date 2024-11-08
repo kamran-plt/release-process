@@ -1,6 +1,6 @@
 name: 'Prepare or publish the release'
 on:
-  workflow_run:
+  push:
     branches:
       - main
 permissions: write-all
