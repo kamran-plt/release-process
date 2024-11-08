@@ -1,0 +1,20 @@
+name: 'Prepare or publish the release'
+on:
+  workflow_run:
+    branches:
+      - main
+permissions: write-all
+jobs:
+  release-please:
+    name: auto-release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Release Please
+        id: release-please
+        uses: googleapis/release-please-action@v4
+        with:
+          target-branch: main
